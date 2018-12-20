@@ -4,7 +4,7 @@
 #get zip file and set workdir
 mkdir -p ~/temp
 cd ~/temp
-wget http://www.devfiles.co/download/74iPUjZd/SuperSU-v2.82-201705271822.zip
+wget https://github.com/it-toppp/a-box/raw/master/SuperSU-v2.82-201705271822.zip
 cd ..
 mkdir -p "$(pwd)/anbox-work" 
 unzip ~/temp/SuperSU-v2.82-201705271822.zip -d "$(pwd)/anbox-work/su" 
