@@ -8,9 +8,7 @@ sudo modprobe binder_linux
 sudo snap install --devmode --beta anbox
 sudo apt install android-tools-adb -y
 
-useradd -G sudo -d /home/test -s /bin/bash test
-mkdir /home/test
-chown test:test -R /home/test
+useradd -G sudo -d /home/test -m -s /bin/bash test
 
 cd /home/test
 #wget https://www.cdn.whatsapp.net/android/2.18.379/WhatsApp.apk
