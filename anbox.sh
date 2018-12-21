@@ -20,6 +20,7 @@ wget https://github.com/it-toppp/anbox/raw/master/AutoResponder.apk
 #adb install ./WhatsApp.apk
 #adb install ./AutoResponder.apk
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+wget https://raw.githubusercontent.com/it-toppp/a-box/master/wp.sh && chmod 777 ./wp.sh
 chmod 777 ./teamviewer_amd64.deb
 apt install ./teamviewer_amd64.deb -y
 teamviewer passwd $TIMPASS
