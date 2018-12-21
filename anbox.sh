@@ -24,4 +24,5 @@ chmod 777 ./teamviewer_amd64.deb
 apt install ./teamviewer_amd64.deb -y
 teamviewer passwd $TIMPASS
 ping 8.8.8.8 -c 10
+teamviewer license accept
 teamviewer info
