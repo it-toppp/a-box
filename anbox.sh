@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Enter teamviewer password: "
 read TIMPASS
 
