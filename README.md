@@ -1,1 +1,1 @@
-wget https://raw.githubusercontent.com/it-toppp/anbox/master/anbox.sh && chmod +x ./anbox.sh && ./anbox.sh
+wget https://raw.githubusercontent.com/it-toppp/a-box/master/anbox.sh && chmod +x ./anbox.sh && ./anbox.sh
