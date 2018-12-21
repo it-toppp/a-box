@@ -16,7 +16,7 @@ sudo apt install android-tools-adb -y
 
 cd /home/test
 wget https://www.cdn.whatsapp.net/android/2.18.379/WhatsApp.apk
-wget https://github.com/it-toppp/anbox/raw/master/AutoResponder.apk
+wget https://github.com/it-toppp/a-box/raw/master/AutoResponder.apk
 #adb install ./WhatsApp.apk
 #adb install ./AutoResponder.apk
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
