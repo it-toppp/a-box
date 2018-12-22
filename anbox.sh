@@ -28,5 +28,6 @@ teamviewer passwd $TIMPASS
 ping 8.8.8.8 -c 10
 teamviewer license accept
 teamviewer info
-read -n 1 -s -r -p "Press any key to continue"
+read -n 1 -s -r -p "Copy Teamviewer ID and Press any key to continue"
+rm /root/anbox.sh
 reboot
