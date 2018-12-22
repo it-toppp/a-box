@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "Enter teamviewer password: "
-read TIMPASS
+#echo "Enter teamviewer password: "
+#read TIMPASS
 
 useradd -G sudo -d /home/test -m -s /bin/bash test
 passwd test
@@ -24,10 +24,10 @@ wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
 wget https://raw.githubusercontent.com/it-toppp/a-box/master/wp.sh && chmod 777 ./wp.sh
 chmod 777 ./teamviewer_amd64.deb
 apt install ./teamviewer_amd64.deb -y
-teamviewer passwd $TIMPASS
+teamviewer passwd qazwsxedc
 ping 8.8.8.8 -c 10
 teamviewer license accept
 teamviewer info
-read -n 1 -s -r -p "Copy Teamviewer ID and Press any key to continue"
+read -n 1 -s -r -p "your password: qazwsxedc        Copy Teamviewer ID   and Press any key to continue"
 rm /root/anbox.sh
 reboot
