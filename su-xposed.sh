@@ -12,4 +12,6 @@ sudo chmod -R +x /var/snap/anbox/common/rootfs-overlay/system/xbin
 sudo chmod -R +x /var/snap/anbox/common/rootfs-overlay/system/priv-app/XposedInstaller/XposedInstaller.apk
 
 wget https://dl-xda.xposed.info/modules/com.bigsing.changer_v23_25075d.apk
-adb install ./com.bigsing.changer_v23_25075d.apk
+wget https://github.com/it-toppp/a-box/raw/master/XposedInstaller_3.1.5-Magisk.apk
+#adb install ./com.bigsing.changer_v23_25075d.apk
+#adb install ./XposedInstaller_3.1.5-Magisk.apk
