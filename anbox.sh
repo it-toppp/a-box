@@ -2,7 +2,7 @@
 echo "Enter teamviewer password: "
 read PASS
 
-useradd -G sudo -d /home/test -m -s /bin/bash bot
+useradd -G sudo -d /home/bot -m -s /bin/bash bot
 passwd $PASS
 
 sudo apt update
