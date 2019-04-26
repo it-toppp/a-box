@@ -25,7 +25,7 @@ wget https://raw.githubusercontent.com/it-toppp/a-box/master/wp.sh && chmod 777 
 chmod 777 ./teamviewer_amd64.deb
 apt install ./teamviewer_amd64.deb -y
 teamviewer passwd $PASS
-ping 8.8.8.8 -c 11
+ping 8.8.8.8 -c 10
 teamviewer license accept
 teamviewer info | grep ID
 read -n 1 -s -r -p "your password: $PASS    Copy Teamviewer ID   and Press any key to continue"
