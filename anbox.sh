@@ -16,8 +16,9 @@ sudo snap install --devmode --beta anbox
 sudo apt install android-tools-adb -y
 
 cd /home/bot
-wget https://www.cdn.whatsapp.net/android/2.18.379/WhatsApp.apk
+wget https://www.cdn.whatsapp.net/android/2.19.114/WhatsApp.apk
 wget https://github.com/it-toppp/a-box/raw/master/AutoResponder.apk
+wget https://github.com/it-toppp/a-box/raw/master/Bot.apk
 #adb install ./WhatsApp.apk
 #adb install ./AutoResponder.apk
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
