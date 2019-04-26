@@ -3,7 +3,7 @@ echo "Enter teamviewer password: "
 read PASS
 
 useradd -G sudo -d /home/bot -m -s /bin/bash bot
-passwd $PASS
+passwd bot
 
 sudo apt update
 sudo apt install xubuntu-core -y
