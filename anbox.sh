@@ -9,7 +9,7 @@ sudo apt update
 sudo apt install xubuntu-core -y
 sudo add-apt-repository ppa:morphis/anbox-support -y
 sudo apt update
-sudo apt install xubuntu-desktop anbox-modules-dkms snap wget mc git htop lzip unzip squashfs-tools -y
+sudo apt install xubuntu-desktop linux-headers-generic anbox-modules-dkms snap wget mc git htop lzip unzip squashfs-tools -y
 sudo modprobe ashmem_linux
 sudo modprobe binder_linux
 sudo snap install --devmode --beta anbox
